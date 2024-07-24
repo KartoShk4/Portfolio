@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект "Burgers"</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700display=swap"rel="stylesheet">
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+    <script type="text/javascript">
+        VK.init({ apiId: 51990728, onlyWidgets: true });
+    </script>
+</head>
+<body>
+    <main>
+        <article class="project">
+            <div class="container">
+                <h1 class="project-header">Верстка сайта "Burgers"</h1>
+                <div class="project-img">
+                    <img src="./img/projects/burgers.png" alt="Верстка сайта «Burgers»">
+                </div>
+                <div class="project-description">
+                    <p>Верстка одностраничного сайта. Страница с товарами, ценами и формой обратной связи.</p>
+                    <p>Адрес сайта: <a href="https://kartoshk4.github.io/burger/">Burgers</a></p>
+                </div>
+                <div class="vk-comments">
+                    <!-- Put this div tag to the place, where the Comments block will be -->
+                    <div id="vk_comments"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Comments("vk_comments", {limit: 5, attach: "link"});
+                    </script>
+                </div>
+                <a href="index.html" class="project-btn-back">← ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+            </div>
+        </article>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright footer-col">
+                    <div class="footer-copyright-name">© Евгений Мухамадеев</div>
+                    <p>HTML верстка и разработка сайтов</p>
+                </div>
+                <!-- footer-icons -->
+                <div class="footer-icons footer-col">
+                    <p>Мои профили в социальных сетях:</p>
+                    <div class="footer-icons-row">
+                        <a href="#">
+                            <img src="./img/icon/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="./img/icon/github.svg" alt="github">
+                        </a>
+                        <a href="#">
+                            <img src="./img/icon/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="./img/icon/linkedin.svg" alt="linkedin">
+                        </a>
+                        <a href="#">
+                            <img src="./img/icon/vk.svg" alt="vk">
+                        </a>
+                    </div>
+                </div>
+                <!-- //footer-icons -->
+
+                <div class="footer-contacts footer-col">
+                    <a class="footer-button" href="https://vk.me/emuhamadeev">
+                        Связаться Вконтакте
+                    </a>
+                    <p>Напишите мне, что бы заказать или узнать стоймость верстки вашего проекта.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
