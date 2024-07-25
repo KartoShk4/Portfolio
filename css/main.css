@@ -178,7 +178,8 @@ img {
 }
 
 .card {
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     background-color: #FFF;
     max-width: 540px;
     background: #FFF;
@@ -200,10 +201,6 @@ img {
 
 .card-link:hover {
     color: rgb(39, 91, 236);
-}
-
-.card:last-child, .card:nth-last-child(2) {
-    margin-bottom: 0;
 }
 
 .card-img {
@@ -396,9 +393,30 @@ img {
 
 /*Swiper*/
 .swiper {
-    width: 600px;
-    height: 300px;
-}
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 
 

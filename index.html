@@ -62,81 +62,72 @@
 <!--Portfolio-->
 <main>
     <section class="portfolio" id="portfolio">
-        <div class="container">
+        <!-- <div class="container"> -->
             <h2 class="portfolio-header">Портфолио</h2>
-
-            <!-- portfolio-cards-wrapper -->
-            <div class="portfolio-cards-wrapper">
-                <!-- Card -->
-                <div class="card">
-                    <a href="barbershop.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/barbershop.jpg" alt="Одностраничный сайт">
-                        <h3 class="card-title">Адаптивный лендинг</h3>
-                        <p>Верстка одностраничного сайта</p>
-                    </a>
+            <!-- portfolio-cards-wrapper/swiper -->
+            <swiper-container class=" swiper mySwiper" pagination="true" autoplay-delay="2500" autoplay-disable-on-interaction="false" loop="true">
+            <!-- swiper -->
+            <swiper-slide>
+                <div class="container">
+                    <div class="portfolio-cards-wrapper">
+                        <!-- Card -->
+                        <div class="card">
+                            <a href="barbershop.html" class="card-link">
+                                <img class="card-img" src="./img/portfolio/barbershop.jpg" alt="Одностраничный сайт">
+                                <h3 class="card-title">Адаптивный лендинг</h3>
+                                <p>Верстка одностраничного сайта</p>
+                            </a>
+                        </div>
+                        <!-- //Card -->
+            
+                        <!-- Card -->
+                        <div class="card">
+                            <a href="cookies.html" class="card-link">
+                                <img class="card-img" src="./img/portfolio/cookies.png" alt="Адаптивный лендинг">
+                                <h3 class="card-title">Одностраничный сайт</h3>
+                                <p>Верстка одностраничного сайта</p>
+                            </a>
+                        </div>
+                        <!-- //Card -->
+            
+                        <!-- Card -->
+                        <div class="card">
+                            <a href="burgers.html" class="card-link">
+                                <img class="card-img" src="./img/portfolio/burgers.png" alt="Адаптивный лендинг">
+                                <h3 class="card-title">Адаптивный лендинг</h3>
+                                <p>Верстка одностраничного сайта</p>
+                            </a>
+                        </div>
+                        <!-- //Card -->
+            
+                        <!-- Card -->
+                        <div class="card">
+                            <a href="macaroons.html" class="card-link">
+                                <img class="card-img" src="./img/portfolio/macaroons.png" alt="Адаптивный лендинг">
+                                <h3 class="card-title">Адаптивный лендинг</h3>
+                                <p>Верстка одностраничного сайта</p>
+                            </a>
+                        </div>
+                        <!-- //Card -->
+                    </div>
                 </div>
-                <!-- //Card -->
+            </swiper-slide>
+            <!-- //swiper-->
 
-                <!-- Card -->
-                <div class="card">
-                    <a href="cookies.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/cookies.png" alt="Адаптивный лендинг">
-                        <h3 class="card-title">Одностраничный сайт</h3>
-                        <p>Верстка одностраничного сайта</p>
-                    </a>
-                </div>
-                <!-- //Card -->
-
-                <!-- Card -->
-                <div class="card">
-                    <a href="burgers.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/burgers.png" alt="Адаптивный лендинг">
-                        <h3 class="card-title">Адаптивный лендинг</h3>
-                        <p>Верстка одностраничного сайта</p>
-                    </a>
-                </div>
-                <!-- //Card -->
-
-                <!-- Card -->
-                <div class="card">
-                    <a href="macaroons.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/macaroons.png" alt="Адаптивный лендинг">
-                        <h3 class="card-title">Адаптивный лендинг</h3>
-                        <p>Верстка одностраничного сайта</p>
-                    </a>
-                </div>
-                <!-- //Card -->
-            </div>
-            <!-- //portfolio-cards-wrapper -->
-
-
-        </div>
+            <swiper-slide>Slide 2</swiper-slide>
+            <swiper-slide>Slide 3</swiper-slide>
+            <swiper-slide>Slide 4</swiper-slide>
+            <swiper-slide>Slide 5</swiper-slide>
+            <swiper-slide>Slide 6</swiper-slide>
+            <swiper-slide>Slide 7</swiper-slide>
+            <swiper-slide>Slide 8</swiper-slide>
+            <swiper-slide>Slide 9</swiper-slide>
+            </swiper-container>
+            <!-- //portfolio-cards-wrapper/swiper -->
+        <!-- </div> -->
     </section>
 </main>
 <!--//Portfolio-->
-
-
-<!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-</div>
-
 
 <!--Footer-->
 <footer class="footer">
@@ -184,7 +175,7 @@
 <script src="./libs/jquery/jquery-3.7.1.min.js"></script>
 <script src="./libs/vide/jquery.vide.min.js"></script>
 <!--Swiper-->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
 <!-- Собственные скрипты и вызовы библиотек -->
 <script src="./js/main.js"></script>
