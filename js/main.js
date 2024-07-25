@@ -6,12 +6,12 @@ $(document).ready(function () {
     });
 
     // Swiper
-    let swiper = new Swiper(".mySwiper", {
+    let swiper = new Swiper(".swiper", {
         slidesPerView: 1,
         spaceBetween: 30,
         centeredSliders: true,
         autoplay: {
-            delay: 2500,
+            delay: 10000,
             disableOnInteraction: false,
           },
         loop: true,
@@ -20,7 +20,7 @@ $(document).ready(function () {
           clickable: true,
         },
       });
-
+    
     // Текущий год в footer
     $(".footer-year").text((new Date).getFullYear());
 });
